@@ -29,7 +29,7 @@ To install:
 * [Youtube API](https://developers.google.com/youtube/) - Used to find trailers for movies
 
 ## Author
-* [Marek Löwy](https://www.linkedin.com/in/marek-löwy-13093a119)
+* [Marek Löwy](www.linkedin.com/in/mareklowy)
 
 ## License
 >Copyright 2018 Marek Löwy
