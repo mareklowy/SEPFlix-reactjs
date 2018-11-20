@@ -3,7 +3,7 @@ SEPFlix is a app that allows its users to see a list of currently popular movies
 
 *Try the current version of [SEPFlix](https://sepflix.netlify.com/) live.*
 
-### Overview
+## Overview
 This version of SEPFix is being developed using ReactJS with a Bootstrap 4. This project is still a work in progress,
 since it's primarily just a personal project in which I am learning and improving my skills in React
 
@@ -15,9 +15,14 @@ To install:
 * `npm start`
 
 ### Built With:
-* [ReactJS](https://reactjs.org/) - Javascript library used to build the user interface
+* [ReactJS](https://reactjs.org/) - JavaScript library used to build the user interface
 * [Bootstrap 4](https://getbootstrap.com/) - Front end framework for fast and responsive web development
 * [Materialize](https://materializecss.com/) - Front end framework implementing material design
+
+### API Built With:
+* [NodeJS](https://nodejs.org/en/) - JavaScript runtime used to implement RESTful API
+* [MongoDB](https://www.mongodb.com/) - Database used to store store non-api data
+* [Heroku](https://dashboard.heroku.com/login) - Used to host SEPFlix API
 
 ### Used APIs
 * [The Movie Database](https://www.themoviedb.org/) - Used to fetch list of currently popular movies and more
