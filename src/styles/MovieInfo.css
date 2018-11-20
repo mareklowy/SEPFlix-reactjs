@@ -1,0 +1,46 @@
+.MovieInfoPosterContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.MovieInfoPoster {
+    margin-top: 5vh;
+    box-shadow: 0 1px 24px black;
+}
+
+.MovieInfoDetailsText {
+    margin-top: 72px;
+    margin-left: 64px;
+}
+
+.MovieInfoTitle {
+    font-size: 48px;
+    color: black;
+}
+
+.MovieInfoRelease {
+    font-size: 24px;
+    color: black;
+}
+
+.MovieInfoOverview {
+    width: 65%;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    color: black;
+}
+
+.MovieInfoRating {
+    font-size: 24px;
+    color: black;
+}
+
+.MovieInfoTrailer {
+    width: 480px;
+    height: 270px;
+    border: 0;
+    margin-left: 64px;
+    margin-top: 48px;
+    box-shadow: 0 1px 24px black;
+}

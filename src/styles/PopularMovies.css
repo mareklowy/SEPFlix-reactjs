@@ -1,0 +1,102 @@
+.PopularMoviesContainer {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.PopularMoviesTitle {
+    color: black;
+    padding-left: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 24px 20px;
+    box-shadow: 0 1px 2px black;
+    background: rgba(0, 0, 0, 0.16);
+    font-size: 3em;
+    text-align: center;
+}
+
+.MovieCellImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+
+    width: 85%;
+    height: auto;
+}
+
+.MovieCellTitle {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+
+    white-space: nowrap;
+
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.MovieCellDate {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+    .MovieCellTitle {
+        font-size: 24px;
+    }
+
+    .MovieCellDate {
+        font-size: 16px;
+    }
+}
+
+.MovieCellContainer {
+    box-shadow: 0 1px 12px black;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: rgba(0, 0, 0, 0.16);
+    margin-bottom: 48px;
+}
+
+.marquee {
+    height: 48px;
+}
+
+.marquee div {
+    line-height: 48px;
+}
+
+.PopularMoviesPageBTN {
+    background: rgba(0, 0, 0, 0.21);
+    border: 0;
+    font-size: 24px;
+    padding: 8px;
+    box-shadow: 0 1px 2px black;
+    animation: ease 0.1s;
+    color: black;
+    cursor: pointer;
+    width: 128px;
+    text-align: center;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.PopularMoviesPageBTN:active {
+    opacity: 0.60;
+}
+
+.PopularMoviesPrev {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.PopularMoviesNext {
+    display: flex;
+    justify-content: flex-end;
+}
